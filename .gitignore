@@ -1,0 +1,16 @@
+# Laravel
+backend/.env
+backend/vendor/
+backend/storage/logs/*
+backend/bootstrap/cache/*
+
+# React / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db
