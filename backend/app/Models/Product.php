@@ -35,4 +35,8 @@ class Product extends Model
     public function orderItem():HasMany{
         return $this->hasMany(OrderItem::class);
     }
+    public function getImageUrlAttribute()
+    {
+        return rtrim(config('app.url'), '/') . '/storage/' . $this->image;
+    }   
 }
